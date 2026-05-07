@@ -1,0 +1,9 @@
+num1 = int(input("Enter First Number: "))
+num2 = int(input("Enter Second Number: "))
+opt = input("Enter (+, -, *, /): ")
+
+l1 = ["+", "-", "*", "/"]
+l2 = [num1+num2, num1-num2, num1*num2, num1/num2]
+
+ind = l1.index(opt)
+print("calculation is: ", l2[ind])
